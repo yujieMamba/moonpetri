@@ -1,6 +1,6 @@
 # MoonPetri
 
-维护者：okmanba（GitHub 登录名 okMambaOut）
+维护者：yujieMamba（GitHub 登录名 yujieMamba）
 
 MoonPetri 是用 MoonBit 编写的离线加权 Petri 网分析库。它从 place、transition、arc 和初始 token 出发，执行 firing，用有限 BFS 探索状态、重建最短轨迹并发现死锁。面向队列和并发资源建模，不是 HTTP 库或 GUI。
 
@@ -9,13 +9,13 @@ MoonPetri 是用 MoonBit 编写的离线加权 Petri 网分析库。它从 place
 需要 MoonBit 工具链，项目锁定并验证 `moonc v0.10.14+7d59c7ec9` 及以上版本。CLI 文件读取依赖 moonbitlang/x。
 
 ```text
-moon add okMambaOut/moonpetri@0.1.3
+moon add okMambaOut/moonpetri@0.1.4
 ```
 
 源码运行：
 
 ```sh
-git clone https://github.com/okMambaOut/moonpetri.git
+git clone https://github.com/yujieMamba/moonpetri.git
 cd moonpetri
 moon update
 moon check --target wasm-gc --deny-warn
@@ -61,7 +61,7 @@ moon run cmd/moonpetri -- report examples/deadlock.pnml
 
 ## 许可证
 
-MIT。维护者为 okmanba，GitHub 账号为 okMambaOut。
+MIT。维护者为 yujieMamba，GitHub 账号为 yujieMamba。
 
 ## 验收检查
 

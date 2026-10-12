@@ -2,6 +2,7 @@
 
 ## 0.1.4 - 2026-09-30
 
+- 将公开仓库归属和提交身份调整为 GitHub 用户 yujieMamba；MoonBit 模块名保持已发布的 okMambaOut/moonpetri。
 - 同步通过验收的 MoonBit 工具链、CI、示例和测试改进到 MoonCakes。
 - 保持中文 README、三个可运行场景以及确定性 Petri 网分析接口。
 - 发布前重新执行多目标工程门禁与包内容审计。

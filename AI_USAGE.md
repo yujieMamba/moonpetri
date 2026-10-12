@@ -1,6 +1,6 @@
 # AI 使用说明
 
-本项目使用 AI 辅助设计、MoonBit 实现、测试、调试、文档及工程检查。参赛者／维护者署名为 **okmanba**，GitHub 登录名为 **okMambaOut**；AI 不作为 GitHub 贡献者署名，也不添加机器人 Co-authored-by。
+本项目使用 AI 辅助设计、MoonBit 实现、测试、调试、文档及工程检查。参赛者／维护者署名为 **yujieMamba**，GitHub 登录名为 **yujieMamba**；AI 不作为 GitHub 贡献者署名，也不添加机器人 Co-authored-by。
 
 本轮审查发现并修复了此前 AI 输出中的错误：PNML 占位实现、不可执行的示例说明、不存在的 CI Action、缺失的 MIT 正文、错误的提交身份以及把原始提交数量等同于有效提交数量。测试或 CI 没有运行的部分，不得写成已通过。
 

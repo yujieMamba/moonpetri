@@ -56,7 +56,7 @@ def main():
     version = manifest_value(manifest, 'version')
     if name != 'okMambaOut/moonpetri':
         raise ValueError('unexpected module ownership: ' + name)
-    if manifest_value(manifest, 'repository') != 'https://github.com/okMambaOut/moonpetri':
+    if manifest_value(manifest, 'repository') != 'https://github.com/yujieMamba/moonpetri':
         raise ValueError('unexpected source repository')
     subprocess.run(['moon', 'package'], cwd=ROOT, check=True)
     archive = ROOT / '_build' / 'publish' / (name.replace('/', '-') + '-' + version + '.zip')
